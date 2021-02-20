@@ -1,0 +1,30 @@
+
+/* .container {
+  display: grid;
+  place-items: center;
+  
+  background: lightskyblue;
+  width: 800px;
+  height: 450px;
+} */
+
+.drum-machine {
+  display: flex;
+  
+  justify-content: space-around;
+
+  background: lightskyblue;
+  width: 800px;
+  height: 450px;
+}
+
+.display{
+  
+}
+
+.drum-pad {
+  display: grid;
+  grid-template-columns: repeat(3,20px);
+  grid-template-rows: repeat(3,20px);
+  gap: 1rem;
+}
