@@ -8,35 +8,16 @@ const Machine = () => {
       <div className="drum-machine">
         <div id='display'>display</div>
         <div className="drum-pad">
-          <div>
-            q
-      </div>
-          <div>
-            w
-      </div>
-          <div>
-            e
-      </div>
-          <div>
-            a
-      </div>
-          <div>
-            s
-      </div>
-          <div>
-            d
-      </div>
-          <div>
-            z
-      </div>
-          <div>
-            x
-      </div>
-          <div>
-            c
-      </div>
+          <button>q</button>
+          <button>w</button>
+          <button>e</button>
+          <button>a</button>
+          <button>s</button>
+          <button>d</button>
+          <button>z</button>
+          <button>x</button>
+          <button>c</button>
         </div>
-
       </div>
     </div>
 
